@@ -1,0 +1,11 @@
+flutter/ephemeral
+
+# CMake build files and binaries
+build/
+CMakeLists.txt.user
+**/*.cmake
+Runner/
+Runner/**/*.h
+Runner/**/*.cpp
+Runner/**/*.o
+Runner/**/*.so

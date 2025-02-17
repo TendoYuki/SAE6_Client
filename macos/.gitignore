@@ -1,0 +1,20 @@
+# Flutter-related
+**/Flutter/ephemeral/
+**/Pods/
+
+# Xcode-related
+**/dgph
+**/xcuserdata/
+
+
+# CMake and Xcode build files
+build/
+**/*.cmake
+Runner/
+Runner/**/*.h
+Runner/**/*.cpp
+Runner/**/*.o
+Runner/**/*.dylib
+xcuserdata/
+xcodeproj/
+xcworkspace/

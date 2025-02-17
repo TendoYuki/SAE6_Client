@@ -1,0 +1,82 @@
+# Root .gitignore for Flutter project
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+.metadata
+
+# IDE Configurations
+.idea/
+.vscode/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Android
+android/.gradle/
+android/.idea/
+android/key.properties
+android/local.properties
+android/captures/
+
+# iOS
+ios/.symlinks/
+ios/Flutter/
+ios/.generated/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/.dart_tool/
+ios/build/
+
+# Linux
+linux/build/
+linux/CMakeLists.txt.user
+linux/**/*.cmake
+
+# macOS
+macos/build/
+macos/**/*.cmake
+macos/xcuserdata/
+macos/xcodeproj/
+macos/xcworkspace/
+
+# Windows
+windows/build/
+windows/**/*.cmake
+
+# Web
+web/build/
+
+# Node modules (if needed)
+node_modules/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Sensitive files and generated content
+auth.json
+**/*.keystore
+**/flutter_export_environment.sh
+**/generated_plugin_registrant.dart
+**/ios/Flutter/App.framework.dSYM/
+
+# Logs & caches
+*.lock
+*.log
